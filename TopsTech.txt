@@ -1,0 +1,139 @@
+{
+  "id": "03c6f211-5f7f-4195-a7d1-62380d660d72",
+  "version": "2.0",
+  "name": "TOPS-TECHNOLOGY ",
+  "url": "https://www.tops-int.com/",
+  "tests": [{
+    "id": "9c27f106-24c3-4123-9c58-e99a6bd946ae",
+    "name": "FIRST TESTCASE",
+    "commands": [{
+      "id": "ff1216bd-4b10-4313-8dd4-aee55f2b213e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tops-int.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4848501-f78d-459b-9870-a48abc632193",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ccbfa10-8bdd-4566-90e8-3652d5a114b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Placement",
+      "targets": [
+        ["linkText=Placement", "linkText"],
+        ["css=.dropdown:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Placement')])[9]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tops-int.com/placements')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcc6ead4-c4fa-454b-859d-a537a9d1c316",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Placement",
+      "targets": [
+        ["linkText=Placement", "linkText"],
+        ["css=.dropdown:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Placement')])[9]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tops-int.com/placements')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab6af55a-435a-4f13-ab6d-1e6ac5a2fa99",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Courses",
+      "targets": [
+        ["linkText=Courses", "linkText"],
+        ["css=#courses-menu > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Courses')]", "xpath:link"],
+        ["xpath=//li[@id='courses-menu']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fb104d4-0032-46f1-909a-9399e2ef6328",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Campus Drive",
+      "targets": [
+        ["linkText=Campus Drive", "linkText"],
+        ["css=.nav-item:nth-child(2) li:nth-child(2) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Campus Drive')]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tops-int.com/campus-drive')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Campus Drive')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e33ca4b5-3868-440a-bf2b-497bc5ecdbf6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ahmedabad (C.G.Road)",
+      "targets": [
+        ["linkText=Ahmedabad (C.G.Road)", "linkText"],
+        ["css=.nav-item:nth-child(3) li:nth-child(1) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Ahmedabad (C.G.Road)')]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tops-int.com/it-training-ahmedabad')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ahmedabad (C.G.Road)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9a00088-3b39-435e-958d-d074d045c7dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.span-gradient",
+      "targets": [
+        ["css=.span-gradient", "css:finder"],
+        ["xpath=//div[@id='course-page']/section/div/div/div/a/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6939322-4500-4953-9157-a52c35510e0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-close",
+      "targets": [
+        ["css=.btn-close", "css:finder"],
+        ["xpath=(//button[@type='button'])[43]", "xpath:attributes"],
+        ["xpath=//div[@id='inquiryForm']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a8c54ca-e172-4a36-9058-2acac571c2ba",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1e58936b-3277-4b23-86ab-35c6583e1348",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9c27f106-24c3-4123-9c58-e99a6bd946ae"]
+  }],
+  "urls": ["https://www.tops-int.com/"],
+  "plugins": []
+}
